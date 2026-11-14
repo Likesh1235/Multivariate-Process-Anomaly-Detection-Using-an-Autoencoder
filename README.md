@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/production-pulse-hero.svg" alt="Production Pulse — Multivariate Process Anomaly Detection using an Autoencoder" width="100%" />
+  <img src="production-pulse-hero.svg" alt="Production Pulse — Multivariate Process Anomaly Detection using an Autoencoder" width="100%" />
 </p>
 
 <p align="center">
