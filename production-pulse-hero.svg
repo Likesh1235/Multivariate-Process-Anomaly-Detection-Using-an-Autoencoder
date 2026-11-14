@@ -1,0 +1,66 @@
+<svg width="1600" height="620" viewBox="0 0 1600 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="30" x2="1510" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/><stop offset="0.55" stop-color="#101D32"/><stop offset="1" stop-color="#07111E"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#75F2FF"/><stop offset="1" stop-color="#1599D5"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B79AFF"/><stop offset="1" stop-color="#6650D9"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1B2D47"/><stop offset="1" stop-color="#0C1728"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8EF5C2"/><stop offset="1" stop-color="#19B981"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" stroke="#6B8BAE" stroke-opacity=".10" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1600" height="620" rx="32" fill="url(#bg)"/>
+  <rect width="1600" height="620" rx="32" fill="url(#grid)"/>
+  <circle cx="1300" cy="170" r="210" fill="#1AB6D8" fill-opacity=".10" filter="url(#glow)"/>
+  <circle cx="1080" cy="440" r="180" fill="#7657E8" fill-opacity=".12" filter="url(#glow)"/>
+
+  <g transform="translate(104 112)">
+    <rect x="0" y="0" width="62" height="28" rx="14" fill="#133B50" stroke="#4DDDF2" stroke-opacity=".45"/>
+    <circle cx="15" cy="14" r="4" fill="#68EDFF"/>
+    <text x="29" y="19" fill="#A8F4FF" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">AI / INDUSTRY 5.0</text>
+    <text x="0" y="108" fill="#F4F8FF" font-family="Inter,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-2.5">PRODUCTION</text>
+    <text x="0" y="184" fill="url(#cyan)" font-family="Inter,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-2.5">PULSE</text>
+    <text x="3" y="232" fill="#A9BCD4" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="500">Multivariate Process Anomaly Detection</text>
+    <text x="3" y="265" fill="#A9BCD4" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="500">using an Autoencoder</text>
+    <rect x="0" y="310" width="206" height="42" rx="21" fill="#112B40" stroke="#39C8E5" stroke-opacity=".6"/>
+    <text x="22" y="337" fill="#B9F7FF" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">TEP PROCESS DATA</text>
+    <rect x="220" y="310" width="178" height="42" rx="21" fill="#211D43" stroke="#9783FA" stroke-opacity=".6"/>
+    <text x="245" y="337" fill="#D7CDFF" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">AUTOENCODER AI</text>
+  </g>
+
+  <!-- isometric industrial monitoring block -->
+  <g transform="translate(890 70)">
+    <path d="M60 330L300 190L555 333L310 477L60 330Z" fill="#101F34" stroke="#3A6984" stroke-opacity=".75" stroke-width="2"/>
+    <path d="M60 330L310 477V535L60 389V330Z" fill="#0A1728" stroke="#284D66" stroke-width="2"/>
+    <path d="M310 477L555 333V391L310 535V477Z" fill="#0D1A2D" stroke="#284D66" stroke-width="2"/>
+    <path d="M100 330L300 214L510 333L310 450L100 330Z" fill="url(#panel)" stroke="#5AAAC4" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M145 330L300 240L465 333L310 423L145 330Z" fill="#0B1729" stroke="#345A77" stroke-width="1.5"/>
+    <path d="M145 330L310 423V450L145 355V330Z" fill="#10253B"/>
+    <path d="M310 423L465 333V359L310 450V423Z" fill="#152B46"/>
+    <path d="M182 330L300 263L428 336L310 405L182 330Z" fill="#10253B" stroke="#4ECFE7" stroke-opacity=".55"/>
+    <path d="M205 330L300 276L405 336L310 393L205 330Z" fill="#122E47"/>
+    <path d="M220 330L300 284L387 336L310 382L220 330Z" fill="#153A54" stroke="#65E5F4" stroke-opacity=".7"/>
+    <path d="M244 330L300 297L365 336L310 370L244 330Z" fill="url(#cyan)" fill-opacity=".24" stroke="#65EBFF" stroke-width="2"/>
+    <path d="M264 330L300 309L345 336L310 357L264 330Z" fill="url(#violet)" fill-opacity=".55" stroke="#B5A3FF" stroke-width="1.5"/>
+    <path d="M300 214V151L348 123V189" stroke="#4DDDF2" stroke-width="3" stroke-linecap="round"/>
+    <path d="M348 123L390 147V204" stroke="#4DDDF2" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="300" cy="151" r="7" fill="#6DEEFF" filter="url(#glow)"/>
+    <circle cx="390" cy="147" r="7" fill="#B6A5FF" filter="url(#glow)"/>
+    <path d="M300 151L245 119L180 157" stroke="#58DDF1" stroke-width="2" stroke-dasharray="6 7"/>
+    <path d="M390 147L462 106L514 136" stroke="#A894FF" stroke-width="2" stroke-dasharray="6 7"/>
+    <rect x="103" y="125" width="150" height="56" rx="12" fill="#0C1C30" stroke="#3EBBD4" stroke-opacity=".7"/>
+    <text x="121" y="147" fill="#82EFFF" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">SENSOR INPUT</text>
+    <text x="121" y="166" fill="#DCEAF7" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">52 FEATURES</text>
+    <rect x="444" y="76" width="142" height="56" rx="12" fill="#171A37" stroke="#9A83FA" stroke-opacity=".75"/>
+    <text x="462" y="98" fill="#BDB0FF" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">MODEL CORE</text>
+    <text x="462" y="117" fill="#EEE9FF" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">AUTOENCODER</text>
+    <g transform="translate(390 395)">
+      <rect width="162" height="70" rx="14" fill="#0B1C2D" stroke="#2D987B" stroke-opacity=".8"/>
+      <circle cx="23" cy="24" r="7" fill="url(#green)"/>
+      <text x="42" y="28" fill="#9AF5CA" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">ANOMALY SCORE</text>
+      <path d="M18 51H38L48 40L60 56L76 31L88 51H144" stroke="#72E9B3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <text x="106" y="565" fill="#59728F" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="2">INDUSTRIAL AI  •  MULTIVARIATE MONITORING  •  RECONSTRUCTION-BASED DETECTION</text>
+</svg>
