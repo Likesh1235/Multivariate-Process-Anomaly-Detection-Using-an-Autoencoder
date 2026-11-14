@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/badge/Method-Autoencoder-8b5cf6?style=for-the-badge" alt="Autoencoder" />
 </p>
 
-<h1 align="center">Production Pulse</h1>
 <h3 align="center">Multivariate Process Anomaly Detection Using an Autoencoder</h3>
 
 <p align="center">
